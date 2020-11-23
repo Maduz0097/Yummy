@@ -14,6 +14,12 @@
         <link rel="stylesheet" href="">
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ruthie&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <style>
             body {
   margin: 0;
@@ -118,6 +124,95 @@
             transition: 0.5s;
     color: black;
           }
+
+
+/*banner styles*/
+.banner{
+  position: relative;
+    z-index: 2000;
+    background: #FFF;
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+}
+.grid-container{
+  display: inline-grid;
+    grid-template-columns: 60% 20% 20%;
+}
+.grid_container_2{
+  display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+}
+.grid_item_1{
+  padding: 20px;
+}
+.grid_content{
+  padding: 0px 30px;
+}
+.grid_image img{
+  max-width: 100%;
+}
+.mt_20{
+  margin-top: 20px !important;
+}
+.heading .heading--subtitle {
+    color: #bb9356;
+    font-family: 'Great Vibes';
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.heading .heading--title {
+    font-family: 'Abril Fatface', cursive;
+    color: #222222;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+.heading .heading--desc {
+    font-family: 'Poppins', sans-serif;
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding: 0 40px;
+}
+
+.btn_rounded{
+  padding:15px 30px 15px;
+  background-color: #000000;
+  background-image: none;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 60px;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  border:2px solid #000000 ;
+}
+.btn_rounded:hover{
+  
+  background-color: #ffffff;
+ border:2px solid #000000 ;
+  color: #000000;
+  font-weight: 900;
+  transition: 0.5s;
+}
+.mt_30{
+  margin-top: 30px;
+}
+.banner_1
+  {
+    background-color: #FFFFFF;
+    z-index: 2000;
+    position: relative;
+    text-align: center;
+    padding: 40px;
+}
+
           </style>
     </head>
     <body>
@@ -152,6 +247,102 @@
       <h1 style="font-family: 'Great Vibes', cursive;font-size: 150px;margin-bottom: auto;font-weight: 100;">Our Restaurent</h1>
       <a href="#" class="main_button">Make A Reservation</a>
   </div>
+
+
+  <section id="banner_1" class="banner banner-2 text-center">
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-item1">
+                <div class="heading heading-1 text--center">
+                    <p class="heading--subtitle">Hello dear</p>
+                    <h2 class="heading--title">Welcome To Yummy.</h2>
+                    <div class="divider--shape-4"></div>
+                    <p class="heading--desc">Steak In was the first retaurant to open in Egypt, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and on site coffee roastery.</p>
+                </div>
+              
+                <a class="btn_rounded mt_30" href="#">Book A Table</a>
+            </div>
+           
+            <div class="grid-item2">
+                <div class="banner_img mt_20" >
+                    <img src="assets/img/4.jpg" alt="image">
+                </div>
+            </div>
+            
+            <div class="grid-item3">
+                <div class="banner_img">
+                    <img src="assets/img/5.jpg" alt="image">
+                </div>
+                
+            </div>
+            
+        </div>
+       
+    </div>
+    
+</section>
+<section id="intro_2" class="banner_1">
+
+<div class="grid_container_2">
+  <div class="grid_item_1">
+    <div class="grid_image">
+      <img src="./assets/img/1.jpg"/>
+    </div>
+<div class="grid_content">
+  <h4>
+    Daily New Fresh Menus
+  </h4>
+  <p>
+    Steak In help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!  
+  </p>
+</div>
+  </div>
+  <div class="grid_item_1">
+    <div class="grid_image">
+      <img src="./assets/img/1.jpg"/>
+    </div>
+<div class="grid_content">
+  <h4>
+    Daily New Fresh Menus
+  </h4>
+  <p>
+    Steak In help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!  
+  </p>
+</div>
+  </div>
+  <div class="grid_item_1">
+    <div class="grid_image">
+      <img src="./assets/img/1.jpg"/>
+    </div>
+<div class="grid_content">
+  <h4>
+    Daily New Fresh Menus
+  </h4>
+  <p>
+    Steak In help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!  
+  </p>
+</div>
+  </div>
+  <div class="grid_item_1">
+    <div class="grid_image">
+      <img src="./assets/img/1.jpg"/>
+    </div>
+<div class="grid_content">
+  <h4>
+    Daily New Fresh Menus
+  </h4>
+  <p>
+    Steak In help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!  
+  </p>
+</div>
+  </div>
+</div>
+
+
+</section>
+
+
+
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
