@@ -135,6 +135,14 @@
     padding: 40px;
     text-align: center;
 }
+.banner_intro{
+  position: relative;
+    z-index: 2000;
+    background: #FFF;
+    
+    padding: 40px;
+    text-align: center;
+}
 .grid-container{
   display: inline-grid;
     grid-template-columns: 60% 20% 20%;
@@ -142,6 +150,10 @@
 .grid_container_2{
   display: inline-grid;
     grid-template-columns: 25% 25% 25% 25%; 
+}
+.grid-container_3{
+  display: inline-grid;
+    grid-template-columns: 50% 50%;
 }
 .grid_item_1{
   padding: 20px;
@@ -154,6 +166,24 @@
 }
 .mt_20{
   margin-top: 20px !important;
+}
+.grid_head{
+  color: #bb9356;
+    font-family: 'Great Vibes';
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.grid_desc{
+  font-family: 'Poppins', sans-serif;
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+    
 }
 .heading .heading--subtitle {
     color: #bb9356;
@@ -181,7 +211,26 @@
     margin-bottom: 0;
     padding: 0 40px;
 }
-
+.heading--desc--new {
+    font-family: 'Poppins', sans-serif;
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding: 0 40px;
+    text-align: left;
+}
+.heading--title--new {
+    font-family: 'Abril Fatface', cursive;
+    color: #222222;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px;
+    padding: 0 40px;
+    text-align: left;
+}
 .btn_rounded{
   padding:15px 30px 15px;
   background-color: #000000;
@@ -289,10 +338,10 @@
       <img src="./assets/img/1.jpg"/>
     </div>
 <div class="grid_content">
-  <h4>
+  <p class="grid_head">
     Daily New Fresh Menus
-  </h4>
-  <p>
+  </p>
+  <p class="grid_desc">
     Steak In help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!  
   </p>
 </div>
@@ -302,10 +351,10 @@
       <img src="./assets/img/1.jpg"/>
     </div>
 <div class="grid_content">
-  <h4>
+  <p class="grid_head">
     Daily New Fresh Menus
-  </h4>
-  <p>
+  </p>
+  <p class="grid_desc">
     Steak In help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!  
   </p>
 </div>
@@ -315,10 +364,10 @@
       <img src="./assets/img/1.jpg"/>
     </div>
 <div class="grid_content">
-  <h4>
+  <p class="grid_head">
     Daily New Fresh Menus
-  </h4>
-  <p>
+  </p>
+  <p class="grid_desc">
     Steak In help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!  
   </p>
 </div>
@@ -328,10 +377,10 @@
       <img src="./assets/img/1.jpg"/>
     </div>
 <div class="grid_content">
-  <h4>
+  <p class="grid_head">
     Daily New Fresh Menus
-  </h4>
-  <p>
+  </p>
+  <p class="grid_desc">
     Steak In help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!  
   </p>
 </div>
@@ -340,7 +389,33 @@
 
 
 </section>
-
+<section id="intro_3" class="banner_intro banner-2 text-center">
+  <div class="container">
+      <div class="grid-container_3">
+          <div class="grid-item1">
+              <div class="heading heading-1 text--center">
+                  <p class="head_chef">HEAD CHEF</p>
+                  <h5 class="heading--title--new">Welcome To Yummy.</h5>
+                  <div class="divider--shape-4"></div>
+                  <p class="heading--desc--new">Steak In was the first retaurant to open in Egypt, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and on site coffee roastery.</p>
+              </div>
+            
+              
+          </div>
+         
+          <div class="grid-item2">
+              <div class="banner_img mt_20" >
+                  <img src="assets/img/4.jpg" alt="image">
+              </div>
+          </div>
+          
+        
+          
+      </div>
+     
+  </div>
+  
+</section>
 
 
         <!--[if lt IE 7]>
